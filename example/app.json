@@ -1,0 +1,38 @@
+{
+  "name": "SecondScreenExample",
+  "displayName": "SecondScreenExample",
+  "components": [
+    {
+      "appKey": "SecondScreenExample",
+      "displayName": "SecondScreenExample"
+    }
+  ],
+  "resources": {
+    "android": [
+      "dist/res",
+      "dist/main.android.jsbundle"
+    ],
+    "ios": [
+      "dist/assets",
+      "dist/main.ios.jsbundle"
+    ],
+    "macos": [
+      "dist/assets",
+      "dist/main.macos.jsbundle"
+    ],
+    "visionos": [
+      "dist/assets",
+      "dist/main.visionos.jsbundle"
+    ],
+    "windows": [
+      "dist/assets",
+      "dist/main.windows.bundle"
+    ]
+  },
+  "android": {
+    "package": "secondscreen.example"
+  },
+  "ios": {
+    "bundleIdentifier": "secondscreen.example"
+  }
+}
