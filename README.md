@@ -1,24 +1,12 @@
-# react-native-second-screen
+# second-screen-android
 
-native module with 2 screens
+native module for android with 2 screens
 
 ## Installation
 
 ```sh
-npm install react-native-second-screen
+npm install second-screen-android
 ```
-
-## Usage
-
-
-```js
-import { multiply } from 'react-native-second-screen';
-
-// ...
-
-const result = await multiply(3, 7);
-```
-
 
 ## Contributing
 

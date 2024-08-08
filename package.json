@@ -1,9 +1,7 @@
 {
-  "name": "second-screen",
+  "name": "second-screen-android",
   "version": "1.0.0",
   "description": "native module with 2 screens",
-  "main": "./lib/commonjs/index.js",
-  "module": "./lib/module/index.js",
   "files": [
     "src",
     "lib",
@@ -23,8 +21,6 @@
     "!**/.*"
   ],
   "scripts": {
-    "example": "yarn workspace react-native-second-screen-example",
-    "test": "jest",
     "typecheck": "tsc",
     "lint": "eslint \"**/*.{js,ts,tsx}\"",
     "clean": "del-cli android/build example/android/build example/android/app/build example/ios/build lib",
@@ -42,9 +38,6 @@
   },
   "author": "Ronaldo Chavez <ronaldo973359101@gmail.com> (https://github.com/RonaldoChan23)",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/RonaldoChan23/second-screen/issues"
-  },
   "homepage": "https://github.com/RonaldoChan23/second-screen#readme",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
