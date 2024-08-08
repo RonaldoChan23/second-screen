@@ -1,7 +1,10 @@
 {
   "name": "second-screen-android",
   "version": "1.0.0",
-  "description": "native module with 2 screens",
+  "description": "Native module with 2 screens",
+  "main": "./lib/commonjs/index.js",
+  "module": "./lib/module/index.js",
+  "types": "./lib/typescript/module/src/index.d.ts",
   "files": [
     "src",
     "lib",
@@ -74,13 +77,6 @@
     "example"
   ],
   "packageManager": "yarn@3.6.1",
-  "jest": {
-    "preset": "react-native",
-    "modulePathIgnorePatterns": [
-      "<rootDir>/example/node_modules",
-      "<rootDir>/lib/"
-    ]
-  },
   "commitlint": {
     "extends": [
       "@commitlint/config-conventional"
@@ -158,10 +154,5 @@
         }
       ]
     ]
-  },
-  "create-react-native-library": {
-    "type": "module-legacy",
-    "languages": "kotlin-objc",
-    "version": "0.40.0"
   }
 }
